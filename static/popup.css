@@ -1,10 +1,20 @@
 .save-button {
-    margin-top: 5vw;
-    margin-left: 1vw;
-    width: 20vw;
+  margin-top: 5vw;
+  margin-left: 1vw;
+  margin-bottom: 1vw;
+  width: 20vw;
 }
 
 .footer {
-    margin-top: 2vw;
-    margin-left: 4.5vw;
+  margin-top: 2vw;
+  margin-left: 4.5vw;
+}
+
+.header-url {
+  width: 94vw;
+  overflow: hidden;
+}
+
+textarea {
+  resize: none;
 }

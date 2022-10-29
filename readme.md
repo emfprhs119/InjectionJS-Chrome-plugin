@@ -1,30 +1,37 @@
-# Notes-Chrome Extension
+# InjectionJS-Chrome Extension
 
-Most note takng applications are too complex these days.Very Distracting!
- Here is a simple notes taking app that lets you concentrate on writing your notes rather than the million other features that other plugins provide :)
+The purpose of InjectJS is to execute additional code on the loaded page to transform the page or perform additional actions.
 
- Checkout my Medium article: https://jainil-parikh.medium.com/build-your-custom-notes-chrome-extension-90ac618b345e
+Please write the code to be executed after testing it through devTools (F12)
 
+InjectionJS의 목적은 로드된 페이지에서 추가 코드를 실행하여 페이지를 변환하거나 추가 작업을 수행하는 것입니다.
 
- Steps to install:
-
- 1. Open Chrome settings on the top right corner and select Extensions.
-
- 2. Enable developer mode.
-
- 3. Click on load unpacked Extension and select the folder where you have downloaded the git repo.
+devTools(F12)를 통해 테스트 후 실행할 코드를 작성해주세요.
 
 
- The extension is now installed and can be seen at chrome://extensions/ .
+#### 제공되는 기능은 다음과 같습니다.
+- 편집기 제공(그대로 작성하기에는 Prettier와 Lint 기능이 없어 추천드리기 어려우니 코드를 붙여넣는 용도로만 사용하시는걸 추천드립니다.)
+- 페이지에 대한 Code 저장 및 자동 불러오기 기능 (baseUrl, targetUrl) / chrome.storage이 사용되었습니다. 
+- 페이지 로드 후 저장되어있던 코드 실행
 
+#### 추가되면 좋을 것 같은 기능은 다음과 같습니다.
+- 편집기를 Code editor로 교체
+- 스니펫 (자주 쓰는 기능 모음)
+- 손쉬운 컴포넌트 인젝션 (예를들어 페이지 위치를 클릭해서 해당 위치에 어떤 컴포넌트를 추가할지 하나씩 대화형으로 선택)
 
-# Notes Extension
- ![alt text](images/screenshot.png)
+Steps to install:
 
+1.  Open Chrome settings on the top right corner and select Extensions.
 
+2.  Enable developer mode.
+
+3.  Click on load unpacked Extension and select the folder where you have downloaded the git repo.
+
+The extension is now installed and can be seen at chrome://extensions/ .
+
+# Screenshot
+
+![](images/screenshot.png)
 
 # References
-
-1. https://developer.chrome.com/docs/extensions/mv3/getstarted/
-
-2. <div class="footer">Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+- base project : https://github.com/jainilparikh/Notes-Chrome-plugin
