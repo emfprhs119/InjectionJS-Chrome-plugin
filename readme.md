@@ -8,14 +8,14 @@ InjectionJS의 목적은 로드된 페이지에서 추가 코드를 실행하여
 
 devTools(F12)를 통해 테스트 후 실행할 코드를 작성해주세요.
 
-
 #### 제공되는 기능은 다음과 같습니다.
-- 편집기 제공(그대로 작성하기에는 Prettier와 Lint 기능이 없어 추천드리기 어려우니 코드를 붙여넣는 용도로만 사용하시는걸 추천드립니다.)
-- 페이지에 대한 Code 저장 및 자동 불러오기 기능 (baseUrl, targetUrl) / chrome.storage이 사용되었습니다. 
+
+- 편집기 제공
+- 페이지에 대한 Code 저장 및 자동 불러오기 기능 (baseUrl, targetUrl) / chrome.storage이 사용되었습니다.
 - 페이지 로드 후 저장되어있던 코드 실행
 
 #### 추가되면 좋을 것 같은 기능은 다음과 같습니다.
-- 편집기를 Code editor로 교체
+
 - 스니펫 (자주 쓰는 기능 모음)
 - 손쉬운 컴포넌트 인젝션 (예를들어 페이지 위치를 클릭해서 해당 위치에 어떤 컴포넌트를 추가할지 하나씩 대화형으로 선택)
 
@@ -34,4 +34,5 @@ The extension is now installed and can be seen at chrome://extensions/ .
 ![](images/screenshot.png)
 
 # References
+
 - base project : https://github.com/jainilparikh/Notes-Chrome-plugin

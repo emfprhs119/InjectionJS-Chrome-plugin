@@ -1,20 +1,27 @@
-.save-button {
-  margin-top: 5vw;
+.container {
+  background: #3b3b3b;
+}
+button {
+  margin-top: 3vw;
   margin-left: 1vw;
   margin-bottom: 1vw;
   width: 20vw;
 }
 
-.footer {
-  margin-top: 2vw;
-  margin-left: 4.5vw;
-}
-
 .header-url {
   width: 94vw;
   overflow: hidden;
+  color: white;
 }
 
 textarea {
   resize: none;
+}
+
+html {
+  height: 0;
+}
+
+.footer {
+  height: 10px;
 }
